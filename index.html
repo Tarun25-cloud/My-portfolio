@@ -1,0 +1,464 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <link rel="stylesheet" href="./css/style.css" />
+   
+    
+    <!--EmailJs-->
+   
+    
+<!---->
+    <title>Portfolio</title>
+  </head>
+  <body class="font-nunito">
+    <!-- into section -->
+    <div
+        class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-8" src="./img/logo.png" alt="" />
+            <span class="text-2xl font-bold text-indigo-900 dark:text-white"
+              >Tarun </span
+            >
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500">
+              <a href="#">homepage</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#about">about me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#skills">skills</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#works">works</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <img
+            id="moon"
+            src="./img/moon.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt=""
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li>
+              <a id="hLink" href="#">homepage</a>
+            </li>
+            <li>
+              <a id="hLink" href="#about">about me</a>
+            </li>
+            <li>
+              <a id="hLink" href="#skills">skills</a>
+            </li>
+            <li>
+              <a id="hLink" href="#works">works</a>
+            </li>
+            <li>
+              <a id="hLink" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        src="./img/man.png"
+        alt=""
+      />
+      <!-- circle -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"
+      ></div>
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-2 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold"
+      >
+        <span class="text-gray-600">I am a</span>
+        <p id="text" class="text-#FFFFFF-500"></p>
+      </div>
+      <!-- texts -->
+      <div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
+      >
+        <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Tarun 👋</h1>
+        <p class="text-gray-400">
+          I am a Web developer and I make websites which people love. I also do Data Structres and Algorithms and problem solving.
+        </p>
+        <a
+          class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#contact"
+          >Get in Touch</a
+        >
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="px-10 dark:bg-slate-900">
+      <div
+        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+      >
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./img/dots.png"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./img/tarun3.png" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3">
+          <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+          <h1 class="text-3xl font-medium dark:text-white">Education :-</h1>
+          <h1 class="text-2xl font-medium dark:text-white">
+            Delhi Technological University 2023 🎓
+
+          </h1>
+          <p class="text-gray-400">
+            I am an undergrad pursuing BTech. in Software Engineering . 
+            I am a passionate Frontend Developer who is ready to learn and improve my skills and explore more on every Techstack. 
+            I also have some experience on working with other techstacks in Backend and 
+            various API to make crazy web applications.
+    
+
+          </p>
+          <h2 class="text-gray-400 font-medium">FrontEnd</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">Backend</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">Data structures</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- services -->
+    <div id="skills" class="dark:bg-slate-900 ">
+      <div class="container mx-auto">
+        <!-- top -->
+       <div class="text-center">
+          <h1 class="text-indigo-600 font-bold " >SKILLS</h1>
+          <!--skills tab-->
+        <div class=" box">
+          <div class ="flex flex-wrap justify-between">
+        <div class="pl-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg "
+          height="100px" width="100px" />
+        </div>
+        <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" 
+          height="100px" width="100px"/>
+          </div>
+          <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" 
+          height="100px" width="100px"/>
+          </div>
+          <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" 
+          height="100px" width="100px"/>
+          </div>
+          <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+           height="100px" width="100px"/>
+          </div>
+          <div class="pr-2">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+           height="100px" width="100px" />
+            </div>
+            <div class="pr-4">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" 
+          height="100px" width="100px"/>
+              </div>
+              <div class="pr-2"> 
+         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+          height="100px" width="100px" />
+            </div>
+            <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" 
+          height="100px" width="100px" />
+            </div>
+            <div class="pr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" 
+          height="100px" width="100px" />
+              </div>
+          </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-3xl dark:text-white">What else do I offer?</h1>
+        
+
+          <p class="w-1/2 text-center text-gray-400">
+            I have done 300+ questions of DSA and problem- solving questions.Check my progeress below in different platforms   
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/leetcode.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Leetcode</h1>
+            <p class="text-gray-400">
+             Check my ID for the amount of DSA qs. and ranks in various competitions
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://leetcode.com/kerkettatarun25/"
+              >Read More</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/HackerRank.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Hackerrank</h1>
+            <p class="text-gray-400">
+              I specialize in creating interactive websites for individuals and
+              small businesses.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://www.hackerrank.com/tarunwilsonkerk1"
+              >Read More</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/gfg.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">GeeksForGeeks</h1>
+            <p class="text-gray-400">
+              I specialize in creating interactive websites for individuals and
+              small businesses.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://auth.geeksforgeeks.org/user/kerkettatarun25/practice"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- works -->
+    <div id="works" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">Projects</h1>
+          <h1 class="text-3xl dark:text-white">Works & Projects</h1>
+          <p class="w-1/2 text-center text-gray-400">
+           My various projects are listed below:
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-3/5 shadow-xl rounded-lg p-5 my-3 md:my-10  transition-all hover:scale-110"
+          >
+          <!-- <div
+            class="w-10 md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"> -->
+            <img src="./img/covid.png" alt="" />
+            
+            <p class="text-gray-400 text-justify" >
+              Covid Tracker and toolkit
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://tarun25-cloud.github.io/Covid-Trackerand-Toolkit/"
+              >Check here</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-3/5 shadow-xl rounded-lg p-5 my-3 md:my-10  transition-all hover:scale-110"
+          >
+          <!-- <div
+            class="w-10 md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"> -->
+            <img src="./img/maths.png" alt="" />
+            
+            <p class="text-gray-400 text-justify" >
+              Maths game
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://tarun25-cloud.github.io/MathsGame/"
+              >Read More</a
+            >
+            </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-3/5 shadow-xl rounded-lg p-5 my-3 md:my-10  transition-all hover:scale-110"
+          >
+          <!-- <div
+            class="w-10 md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"> -->
+            <img src="./img/bank.png" alt="" />
+            
+            <p class="text-gray-400 text-justify" >
+              Bank Management sys
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://github.com/Tarun25-cloud/BankManagementSystem"
+              >Read More</a
+            >
+            </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-3/5 shadow-xl rounded-lg p-5 my-3 md:my-10  transition-all hover:scale-110"
+          >
+          <!-- <div
+            class="w-10 md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"> -->
+            <img src="./img/git.png" alt="" />
+            
+            <p class="text-gray-400 text-justify" >
+              Check more projects on my github.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://github.com/Tarun25-cloud?tab=repositories"
+              >click here</a
+            >
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+          <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Do you have an idea? Let's discuss it and see what we can do
+            together.
+          </p>
+        </div>
+        <!-- bottom -->
+        <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            id="fullname"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            id="subject"
+            placeholder="Subject"
+            required
+          />
+          <textarea
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            cols="30"
+            rows="10"
+            id="message"
+            placeholder="Message..."
+            required
+          ></textarea>
+          <button id="btn" class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full bg-gray-800">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img class="w-8" src="./img/logo.png" alt="" />
+          <span class="text-2xl font-bold text-white">Tarun</span>
+        </div>
+        <span class="hidden md:block font-medium text-white"
+          >My Portfolio.</span
+        >
+        <div class="flex gap-2">
+          
+          <img class="w-4 cursor-pointer" src="./img/facebook.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/instagram.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/twitter.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- <script>function SendMail(){
+      var params={
+        from_name : document.getElementById("fullname").value,
+        email_id : document.getElementById("email_id").value,
+        message : document.getElementById("message").value,
+      }
+      email.js.send("service_jsmuufs","template_o80zou3",params).then(function(response) {
+        alert('SUCCESS!', response.text);
+     }, function(error) {
+        alert('FAILED...',error);
+     });
+    }</script> -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+      var button =document.getElementById('btn');
+        btn.addEventListener('click', function(e) {
+          e.preventDefault()
+          var name = document.getElementById('fullname').value;
+          var email = document.getElementById('email').value;
+          var subject = document.getElementById('subject').value;
+          var message = document.getElementById('message').value;
+          var body = 'name: ' +name + '<br/> email: ' + email + '<br/> subject' + subject + '<br/> message' + message;
+          Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "kerkettatarun25@gmail.com",
+    Password : "kE4C029079DD13142FC8D49C6C3253C656F62",
+    To : 'kerkettatarun25@gmail.com',
+    From : email,
+    Subject : subject,
+    Body : body
+}).then(
+  message => alert(message)
+);
+        })
+      
+    </script>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+  </body>
+</html>
